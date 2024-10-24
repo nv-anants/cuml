@@ -31,7 +31,7 @@ function(find_and_configure_treelite)
         GLOBAL_TARGETS       ${TREELITE_LIBS}
         INSTALL_EXPORT_SET   cuml-exports
         CPM_ARGS
-            GIT_REPOSITORY   https://github.com/dmlc/treelite.git
+            GIT_REPOSITORY   https://github.com/hcho3/treelite.git
             GIT_TAG          ${PKG_PINNED_TAG}
             EXCLUDE_FROM_ALL ${PKG_EXCLUDE_FROM_ALL}
             OPTIONS
