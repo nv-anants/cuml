@@ -32,7 +32,7 @@ function(find_and_configure_treelite)
         INSTALL_EXPORT_SET   cuml-exports
         CPM_ARGS
             GIT_REPOSITORY   https://github.com/dmlc/treelite.git
-            GIT_TAG          hcho3:fix_missing_include
+            GIT_TAG          ${PKG_PINNED_TAG}
             EXCLUDE_FROM_ALL ${PKG_EXCLUDE_FROM_ALL}
             OPTIONS
               "USE_OPENMP ON"
